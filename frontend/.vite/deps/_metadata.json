@@ -1,0 +1,101 @@
+{
+  "hash": "daa2da97",
+  "browserHash": "19577c8e",
+  "optimized": {
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "9bb70711",
+      "needsInterop": false
+    },
+    "@mui/material/FormControl": {
+      "src": "../../node_modules/@mui/material/FormControl/index.js",
+      "file": "@mui_material_FormControl.js",
+      "fileHash": "12e874c0",
+      "needsInterop": false
+    },
+    "@mui/material/InputLabel": {
+      "src": "../../node_modules/@mui/material/InputLabel/index.js",
+      "file": "@mui_material_InputLabel.js",
+      "fileHash": "67dd188e",
+      "needsInterop": false
+    },
+    "@mui/material/MenuItem": {
+      "src": "../../node_modules/@mui/material/MenuItem/index.js",
+      "file": "@mui_material_MenuItem.js",
+      "fileHash": "92acedca",
+      "needsInterop": false
+    },
+    "@mui/material/TextField": {
+      "src": "../../node_modules/@mui/material/TextField/index.js",
+      "file": "@mui_material_TextField.js",
+      "fileHash": "4dccf933",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "dbb3dfce",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "261b05fe",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "6fa79482",
+      "needsInterop": true
+    },
+    "react-redux": {
+      "src": "../../node_modules/react-redux/es/index.js",
+      "file": "react-redux.js",
+      "fileHash": "02a9dc2e",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "ffbfaacc",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-4YAPLWLY": {
+      "file": "chunk-4YAPLWLY.js"
+    },
+    "chunk-3I7FNAJC": {
+      "file": "chunk-3I7FNAJC.js"
+    },
+    "chunk-ZXZJBGUQ": {
+      "file": "chunk-ZXZJBGUQ.js"
+    },
+    "chunk-YZ57RRLN": {
+      "file": "chunk-YZ57RRLN.js"
+    },
+    "chunk-LOWYT6BF": {
+      "file": "chunk-LOWYT6BF.js"
+    },
+    "chunk-C3Y4QI6D": {
+      "file": "chunk-C3Y4QI6D.js"
+    },
+    "chunk-OIVL5IMZ": {
+      "file": "chunk-OIVL5IMZ.js"
+    },
+    "chunk-RRCLT33F": {
+      "file": "chunk-RRCLT33F.js"
+    },
+    "chunk-MKG3NT3Y": {
+      "file": "chunk-MKG3NT3Y.js"
+    },
+    "chunk-67XTWVEJ": {
+      "file": "chunk-67XTWVEJ.js"
+    },
+    "chunk-5WWUZCGV": {
+      "file": "chunk-5WWUZCGV.js"
+    }
+  }
+}
