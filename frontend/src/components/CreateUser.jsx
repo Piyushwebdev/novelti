@@ -90,7 +90,7 @@ function CreateUser({setCreateOpen,users,setUsers,setSnackCreateOpen}) {
     if(errorMsg?.email!=="Enter valid email" && errorMsg?.mobile!=="Enter valid mobile number"){
     try {
       // const response = await axios.post("/api/users", values);
-      const data=await axios.post(`${REACT_APP_STRIPE_PROD_APP_KEY}/api/users`,{firstName:firstName,lastName:lastName,email:email,mobile:mobile,country:country,state:state,zipCode:zipCode}).then((res)=>{
+      const data=await axios.post(`${import.meta.env.REACT_APP_STRIPE_PROD_APP_KEY}/api/users`,{firstName:firstName,lastName:lastName,email:email,mobile:mobile,country:country,state:state,zipCode:zipCode}).then((res)=>{
       setUsers([res.data,...users]);
       setCreateOpen(false)
       setSnackCreateOpen(false)

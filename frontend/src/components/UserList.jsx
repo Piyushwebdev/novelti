@@ -21,7 +21,7 @@ function UserList() {
   const handleDelete = (e,id) => {
     e.stopPropagation();
     axios
-      .delete(`${REACT_APP_STRIPE_PROD_APP_KEY}/api/users/${id}`)
+      .delete(`${import.meta.env.REACT_APP_STRIPE_PROD_APP_KEY}/api/users/${id}`)
       .then((response) => {
         console.log(response);
       })
@@ -31,7 +31,7 @@ function UserList() {
   };
   const fetchData = () => {
     axios
-      .get("http://localhost:5000/api/users")
+      .get(`${import.meta.env.REACT_APP_STRIPE_PROD_APP_KEY}/api/users`)
       .then((response) => {
         console.log(response);
         setUsers(response.data);
