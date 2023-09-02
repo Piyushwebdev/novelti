@@ -21,7 +21,7 @@ function UserList() {
   const handleDelete = (e,id) => {
     e.stopPropagation();
     axios
-      .delete(`http://localhost:5000/api/users/${id}`)
+      .delete(`${REACT_APP_STRIPE_PROD_APP_KEY}/api/users/${id}`)
       .then((response) => {
         console.log(response);
       })
